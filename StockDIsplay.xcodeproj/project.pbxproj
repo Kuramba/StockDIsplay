@@ -12,6 +12,7 @@
 		5943AB9D20C29202001810B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943AB9B20C29202001810B0 /* Main.storyboard */; };
 		5943AB9F20C29204001810B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5943AB9E20C29204001810B0 /* Assets.xcassets */; };
 		5943ABA220C29204001810B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943ABA020C29204001810B0 /* LaunchScreen.storyboard */; };
+		D783E50A15B592E0AC5F53C8 /* Pods_StockDIsplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF2EB6D24990F114B37226 /* Pods_StockDIsplay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		5943AB9E20C29204001810B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5943ABA120C29204001810B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5943ABA320C29204001810B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E8FDAC98E5E180C0E17E22 /* Pods-StockDIsplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockDIsplay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay.debug.xcconfig"; sourceTree = "<group>"; };
+		E129BD4C34F68EA27FBD4DDE /* Pods-StockDIsplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockDIsplay.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay.release.xcconfig"; sourceTree = "<group>"; };
+		EEDF2EB6D24990F114B37226 /* Pods_StockDIsplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockDIsplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D783E50A15B592E0AC5F53C8 /* Pods_StockDIsplay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				5943AB9620C29202001810B0 /* StockDIsplay */,
 				5943AB9520C29202001810B0 /* Products */,
+				ACF0BEA4685C439B47AB07A8 /* Pods */,
+				99577DA5FC3492A695DA88EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = StockDIsplay;
 			sourceTree = "<group>";
 		};
+		99577DA5FC3492A695DA88EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF2EB6D24990F114B37226 /* Pods_StockDIsplay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACF0BEA4685C439B47AB07A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1E8FDAC98E5E180C0E17E22 /* Pods-StockDIsplay.debug.xcconfig */,
+				E129BD4C34F68EA27FBD4DDE /* Pods-StockDIsplay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5943ABA620C29204001810B0 /* Build configuration list for PBXNativeTarget "StockDIsplay" */;
 			buildPhases = (
+				9A0DCE10339BE959B5A4DA64 /* [CP] Check Pods Manifest.lock */,
 				5943AB9020C29202001810B0 /* Sources */,
 				5943AB9120C29202001810B0 /* Frameworks */,
 				5943AB9220C29202001810B0 /* Resources */,
+				5ED51BB5740A5E1EA76E93E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ED51BB5740A5E1EA76E93E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A0DCE10339BE959B5A4DA64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockDIsplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5943AB9020C29202001810B0 /* Sources */ = {
@@ -278,14 +343,12 @@
 		};
 		5943ABA720C29204001810B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E8FDAC98E5E180C0E17E22 /* Pods-StockDIsplay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StockDIsplay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kuramba.StockDIsplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -295,14 +358,12 @@
 		};
 		5943ABA820C29204001810B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E129BD4C34F68EA27FBD4DDE /* Pods-StockDIsplay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StockDIsplay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kuramba.StockDIsplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
