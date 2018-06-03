@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11DA194F781185ED2D3509C2 /* Pods_StockDIsplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF2EB6D24990F114B37226 /* Pods_StockDIsplay.framework */; };
 		5943AB9820C29202001810B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943AB9720C29202001810B0 /* AppDelegate.swift */; };
-		5943AB9A20C29202001810B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943AB9920C29202001810B0 /* ViewController.swift */; };
+		5943AB9A20C29202001810B0 /* ChartDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943AB9920C29202001810B0 /* ChartDisplayViewController.swift */; };
 		5943AB9D20C29202001810B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943AB9B20C29202001810B0 /* Main.storyboard */; };
 		5943AB9F20C29204001810B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5943AB9E20C29204001810B0 /* Assets.xcassets */; };
 		5943ABA220C29204001810B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5943ABA020C29204001810B0 /* LaunchScreen.storyboard */; };
-		D783E50A15B592E0AC5F53C8 /* Pods_StockDIsplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF2EB6D24990F114B37226 /* Pods_StockDIsplay.framework */; };
+		5943ABAB20C29D85001810B0 /* StockAtSpecificTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943ABAA20C29D85001810B0 /* StockAtSpecificTime.swift */; };
+		5943ABAE20C29DDA001810B0 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943ABAD20C29DDA001810B0 /* Stock.swift */; };
+		5943ABB120C29E5C001810B0 /* DataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5943ABB020C29E5C001810B0 /* DataGenerator.swift */; };
+		59654D9B20C4114100D9715B /* StockDisplayCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59654D9A20C4114100D9715B /* StockDisplayCase.swift */; };
+		59654D9D20C4115800D9715B /* StockPeriudCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59654D9C20C4115800D9715B /* StockPeriudCase.swift */; };
+		59654D9F20C41FD100D9715B /* PickISINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59654D9E20C41FD100D9715B /* PickISINViewController.swift */; };
+		59654DA420C4251100D9715B /* PiISINTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59654DA320C4251000D9715B /* PiISINTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5943AB9420C29202001810B0 /* StockDIsplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockDIsplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5943AB9720C29202001810B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5943AB9920C29202001810B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5943AB9920C29202001810B0 /* ChartDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDisplayViewController.swift; sourceTree = "<group>"; };
 		5943AB9C20C29202001810B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5943AB9E20C29204001810B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5943ABA120C29204001810B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5943ABA320C29204001810B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5943ABAA20C29D85001810B0 /* StockAtSpecificTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAtSpecificTime.swift; sourceTree = "<group>"; };
+		5943ABAD20C29DDA001810B0 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		5943ABB020C29E5C001810B0 /* DataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGenerator.swift; sourceTree = "<group>"; };
+		59654D9A20C4114100D9715B /* StockDisplayCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDisplayCase.swift; sourceTree = "<group>"; };
+		59654D9C20C4115800D9715B /* StockPeriudCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPeriudCase.swift; sourceTree = "<group>"; };
+		59654D9E20C41FD100D9715B /* PickISINViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickISINViewController.swift; sourceTree = "<group>"; };
+		59654DA320C4251000D9715B /* PiISINTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiISINTableViewCell.swift; sourceTree = "<group>"; };
 		D1E8FDAC98E5E180C0E17E22 /* Pods-StockDIsplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockDIsplay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay.debug.xcconfig"; sourceTree = "<group>"; };
 		E129BD4C34F68EA27FBD4DDE /* Pods-StockDIsplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockDIsplay.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay.release.xcconfig"; sourceTree = "<group>"; };
 		EEDF2EB6D24990F114B37226 /* Pods_StockDIsplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockDIsplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D783E50A15B592E0AC5F53C8 /* Pods_StockDIsplay.framework in Frameworks */,
+				11DA194F781185ED2D3509C2 /* Pods_StockDIsplay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,14 +75,85 @@
 		5943AB9620C29202001810B0 /* StockDIsplay */ = {
 			isa = PBXGroup;
 			children = (
-				5943AB9720C29202001810B0 /* AppDelegate.swift */,
-				5943AB9920C29202001810B0 /* ViewController.swift */,
+				59654D9620C3C0A600D9715B /* View */,
+				5943ABA920C29D74001810B0 /* Data */,
+				59654D9820C3C0E900D9715B /* Other */,
+			);
+			path = StockDIsplay;
+			sourceTree = "<group>";
+		};
+		5943ABA920C29D74001810B0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5943ABAA20C29D85001810B0 /* StockAtSpecificTime.swift */,
+				5943ABAD20C29DDA001810B0 /* Stock.swift */,
+				59654D9520C3C07500D9715B /* DataEnums */,
+				5943ABAF20C29E4B001810B0 /* DataGenerator */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5943ABAF20C29E4B001810B0 /* DataGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5943ABB020C29E5C001810B0 /* DataGenerator.swift */,
+			);
+			path = DataGenerator;
+			sourceTree = "<group>";
+		};
+		59654D9520C3C07500D9715B /* DataEnums */ = {
+			isa = PBXGroup;
+			children = (
+				59654D9A20C4114100D9715B /* StockDisplayCase.swift */,
+				59654D9C20C4115800D9715B /* StockPeriudCase.swift */,
+			);
+			path = DataEnums;
+			sourceTree = "<group>";
+		};
+		59654D9620C3C0A600D9715B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59654D9920C3C16F00D9715B /* ViewControlers */,
+				59654D9720C3C0B500D9715B /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59654D9720C3C0B500D9715B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
 				5943AB9B20C29202001810B0 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		59654D9820C3C0E900D9715B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5943AB9720C29202001810B0 /* AppDelegate.swift */,
 				5943AB9E20C29204001810B0 /* Assets.xcassets */,
 				5943ABA020C29204001810B0 /* LaunchScreen.storyboard */,
 				5943ABA320C29204001810B0 /* Info.plist */,
 			);
-			path = StockDIsplay;
+			path = Other;
+			sourceTree = "<group>";
+		};
+		59654D9920C3C16F00D9715B /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				59654DA020C4213700D9715B /* Cells */,
+				5943AB9920C29202001810B0 /* ChartDisplayViewController.swift */,
+				59654D9E20C41FD100D9715B /* PickISINViewController.swift */,
+			);
+			path = ViewControlers;
+			sourceTree = "<group>";
+		};
+		59654DA020C4213700D9715B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				59654DA320C4251000D9715B /* PiISINTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		99577DA5FC3492A695DA88EC /* Frameworks */ = {
@@ -99,7 +184,7 @@
 				5943AB9020C29202001810B0 /* Sources */,
 				5943AB9120C29202001810B0 /* Frameworks */,
 				5943AB9220C29202001810B0 /* Resources */,
-				5ED51BB5740A5E1EA76E93E3 /* [CP] Embed Pods Frameworks */,
+				E48DFCBD72F6E90D5463820D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,24 +242,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5ED51BB5740A5E1EA76E93E3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9A0DCE10339BE959B5A4DA64 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +260,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E48DFCBD72F6E90D5463820D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockDIsplay/Pods-StockDIsplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -200,8 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5943AB9A20C29202001810B0 /* ViewController.swift in Sources */,
+				59654D9F20C41FD100D9715B /* PickISINViewController.swift in Sources */,
+				5943AB9A20C29202001810B0 /* ChartDisplayViewController.swift in Sources */,
 				5943AB9820C29202001810B0 /* AppDelegate.swift in Sources */,
+				5943ABAE20C29DDA001810B0 /* Stock.swift in Sources */,
+				59654D9B20C4114100D9715B /* StockDisplayCase.swift in Sources */,
+				5943ABAB20C29D85001810B0 /* StockAtSpecificTime.swift in Sources */,
+				59654D9D20C4115800D9715B /* StockPeriudCase.swift in Sources */,
+				59654DA420C4251100D9715B /* PiISINTableViewCell.swift in Sources */,
+				5943ABB120C29E5C001810B0 /* DataGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +439,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StockDIsplay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				DEVELOPMENT_TEAM = PKU3QC42N7;
+				INFOPLIST_FILE = StockDIsplay/Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kuramba.StockDIsplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -362,8 +458,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StockDIsplay/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				DEVELOPMENT_TEAM = PKU3QC42N7;
+				INFOPLIST_FILE = StockDIsplay/Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kuramba.StockDIsplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
